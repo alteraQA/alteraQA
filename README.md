@@ -2,8 +2,8 @@
 ### Анастасия Чернова
 ### QA-engineer 
 ## Tools 
-![Jira](https://img.shields.io/badge/Jira-090909?style=-for-the-badge&logo=jira&logoColor=0C5AA6)
-![Confluence](https://img.shields.io/badge/Confluence-090909?style=-for-the-badge&logo=confluence&logoColor=0C5AA6)
+![Jira](https://img.shields.io/badge/Jira-090909?style=-for-the-badge&logo=jira&logoColor=3D9AD1)
+![Confluence](https://img.shields.io/badge/Confluence-090909?style=-for-the-badge&logo=confluence&logoColor=3D9AD1)
 ![Figma](https://img.shields.io/badge/Figma-090909?style=-for-the-badge&logo=figma&logoColor=BC38D3)
 ![SQL](https://img.shields.io/badge/SQL-090909?style=-for-the-badge&logo=phpmyadmin&logoColor=FFAD40)
 ![Jenkins](https://img.shields.io/badge/Jenkins-090909?style=-for-the-badge&logo=jenkins&logoColor=A61A00)
