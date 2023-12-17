@@ -10,6 +10,7 @@
 ![Postman](https://img.shields.io/badge/Postman-090909?style=-for-the-badge&logo=postman&logoColor=FF5D40)
 ![ChromeDevTools](https://img.shields.io/badge/ChromeDevTools-090909?style=-for-the-badge&logo=google&logoColor=007536)
 ![Git](https://img.shields.io/badge/Git-090909?style=-for-the-badge&logo=git&logoColor=FF2300)
+![Python](https://img.shields.io/badge/Python-090909?style=-for-the-badge&logo=Python&logoColor=FFDE40)
 ![WinSCP](https://img.shields.io/badge/WinSCP-090909?style=-for-the-badge&logo=powershell&logoColor=3C9DD0)
 ![AndroidStudio](https://img.shields.io/badge/AndroidStudio-090909?style=-for-the-badge&logo=AndroidStudio&logoColor=00BB3F)
 ![TestFlight](https://img.shields.io/badge/TestFlight-090909?style=-for-the-badge&logo=TestFlight&logoColor=00648B)
