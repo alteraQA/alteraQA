@@ -14,6 +14,6 @@
 ![WinSCP](https://img.shields.io/badge/WinSCP-090909?style=-for-the-badge&logo=powershell&logoColor=3C9DD0)
 ![AndroidStudio](https://img.shields.io/badge/AndroidStudio-090909?style=-for-the-badge&logo=AndroidStudio&logoColor=00BB3F)
 ![TestFlight](https://img.shields.io/badge/TestFlight-090909?style=-for-the-badge&logo=TestFlight&logoColor=00648B)
-![Charles](https://img.shields.io/badge/Charles-090909?style=-for-the-badge&logo=charles&logoColor=00648B)
-![Qase](https://img.shields.io/badge/Qase-090909?style=-for-the-badge&logo=qase&logoColor=00648B)
+![Charles](https://img.shields.io/badge/Charles-090909?style=-for-the-badge&logo=charles&logoColor=ffffff)
+![Qase](https://img.shields.io/badge/Qase-090909?style=-for-the-badge&logo=qase&logoColor=0C5AA6)
 ![1C:Битрикс](https://img.shields.io/badge/1C:Битрикс-090909?style=-for-the-badge&logo=bitrix&logoColor=00648B)
