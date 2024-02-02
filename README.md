@@ -10,7 +10,7 @@
 
 [Баг-репорты "Личное событие" в кабинете учителя Skyeng](https://github.com/alteraQA/alteraQA/blob/main/assets/%D0%91%D0%B0%D0%B3-%D1%80%D0%B5%D0%BF%D0%BE%D1%80%D1%82%D1%8B_%E2%80%9C%D0%9B%D0%B8%D1%87%D0%BD%D0%BE%D0%B5_%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B5%E2%80%9D_%D0%B2_%D0%BA%D0%B0%D0%B1%D0%B8%D0%BD%D0%B5%D1%82%D0%B5_%D1%83%D1%87%D0%B8%D1%82%D0%B5%D0%BB%D1%8F_Skyeng.pdf)
 
-[Отчет по тестированию "Личное событие" в кабинете учителя Skyeng](../blob/main/assets/Отчет_по_тестированию_нового_элемента_“Личное%20событие”_в_кабинете_учителя_Skyeng.pdf)
+[Отчет по тестированию "Личное событие" в кабинете учителя Skyeng](https://github.com/alteraQA/alteraQA/blob/main/assets/%D0%9E%D1%82%D1%87%D0%B5%D1%82_%D0%BF%D0%BE_%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8E_%D0%BD%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE_%D1%8D%D0%BB%D0%B5%D0%BC%D0%B5%D0%BD%D1%82%D0%B0_%E2%80%9C%D0%9B%D0%B8%D1%87%D0%BD%D0%BE%D0%B5%20%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B5%E2%80%9D_%D0%B2_%D0%BA%D0%B0%D0%B1%D0%B8%D0%BD%D0%B5%D1%82%D0%B5_%D1%83%D1%87%D0%B8%D1%82%D0%B5%D0%BB%D1%8F_Skyeng.pdf)
 
 ## Tools 
 ![Jira](https://img.shields.io/badge/Jira-090909?style=-for-the-badge&logo=jira&logoColor=3D9AD1)
