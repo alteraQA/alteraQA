@@ -2,7 +2,7 @@
 ### Анастасия Чернова 
 [My CV "QA"](https://novosibirsk.hh.ru/resume/59850493ff0c8ad91b0039ed1f6436514f6754) 
 ## Sample testing documentation
-[Тест-план “Личное событие” в кабинете учителя Skyeng](..assets/Баг-репорты_“Личное_событие”_в_кабинете_учителя_Skyeng.pdf)
+[Тест-план “Личное событие” в кабинете учителя Skyeng](https://github.com/alteraQA/alteraQA/blob/main/assets/%D0%A2%D0%B5%D1%81%D1%82-%D0%BF%D0%BB%D0%B0%D0%BD%20%E2%80%9C%D0%9B%D0%B8%D1%87%D0%BD%D0%BE%D0%B5%20%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B5%E2%80%9D%20%D0%B2%20%D0%BA%D0%B0%D0%B1%D0%B8%D0%BD%D0%B5%D1%82%D0%B5%20%D1%83%D1%87%D0%B8%D1%82%D0%B5%D0%BB%D1%8F%20Skyeng.pdf)
 
 [Тестирование требований нового элемента "Личное событие" в кабинете учителя Skyeng](../blob/main/assets/Тестирование_требований_нового_элемента%20_Личное_событие_%20в%20кабинете_учителя_Skyeng.pdf)
 
