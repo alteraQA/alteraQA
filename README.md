@@ -1,7 +1,7 @@
 [![Header](https://github.com/alteraQA/alteraQA/blob/main/assets/testcv.gif)](https://novosibirsk.hh.ru/resume/59850493ff0c8ad91b0039ed1f6436514f6754)
 ### Анастасия Чернова 
 [CV "QA"](https://novosibirsk.hh.ru/resume/59850493ff0c8ad91b0039ed1f6436514f6754) 
-## Sample testing documentation
+## Примеры документации
 [Тест-план “Личное событие” в кабинете учителя Skyeng](https://github.com/alteraQA/alteraQA/blob/main/assets/%D0%A2%D0%B5%D1%81%D1%82-%D0%BF%D0%BB%D0%B0%D0%BD%20%E2%80%9C%D0%9B%D0%B8%D1%87%D0%BD%D0%BE%D0%B5%20%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B5%E2%80%9D%20%D0%B2%20%D0%BA%D0%B0%D0%B1%D0%B8%D0%BD%D0%B5%D1%82%D0%B5%20%D1%83%D1%87%D0%B8%D1%82%D0%B5%D0%BB%D1%8F%20Skyeng.pdf)
 
 [Тестирование требований нового элемента "Личное событие" в кабинете учителя Skyeng](https://github.com/alteraQA/alteraQA/blob/main/assets/%D0%A2%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_%D1%82%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9_%D0%BD%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE_%D1%8D%D0%BB%D0%B5%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%20_%D0%9B%D0%B8%D1%87%D0%BD%D0%BE%D0%B5_%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B5_%20%D0%B2%20%D0%BA%D0%B0%D0%B1%D0%B8%D0%BD%D0%B5%D1%82%D0%B5_%D1%83%D1%87%D0%B8%D1%82%D0%B5%D0%BB%D1%8F_Skyeng.pdf)
@@ -18,7 +18,7 @@
 
 [Low-level test cases(Google sheets)](https://docs.google.com/spreadsheets/d/1oI24CNokzVROpgGlNdPil40zovWfU7JEHTHjgqMcEAs/edit?usp=sharing)
 
-## Tools 
+## Навыки
 ![Jira](https://img.shields.io/badge/Jira-090909?style=-for-the-badge&logo=jira&logoColor=3D9AD1)
 ![Confluence](https://img.shields.io/badge/Confluence-090909?style=-for-the-badge&logo=confluence&logoColor=3D9AD1)
 ![Figma](https://img.shields.io/badge/Figma-090909?style=-for-the-badge&logo=figma&logoColor=BC38D3)
