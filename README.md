@@ -33,5 +33,5 @@
 ![TestFlight](https://img.shields.io/badge/TestFlight-090909?style=-for-the-badge&logo=TestFlight&logoColor=00648B)
 ![Charles](https://img.shields.io/badge/Charles-090909?style=-for-the-badge&logo=charles&logoColor=ffffff)
 ![Qase](https://img.shields.io/badge/Qase-090909?style=-for-the-badge&logo=qase&logoColor=0C5AA6)
-![Test IT](https://img.shields.io/badge/TestIT-090909?style=-for-the-badge&logo=TestIT&logoColor=3875C5)
+![Test IT](https://img.shields.io/badge/TestIT-090909?style=-for-the-badge&logo=testit&logoColor=3875C5)
 ![1C:Битрикс](https://img.shields.io/badge/1C:Битрикс-090909?style=-for-the-badge&logo=bitrix&logoColor=00648B)
