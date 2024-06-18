@@ -18,7 +18,7 @@
 
 [Тест-сьют "Регистрация"(Google sheets)](https://docs.google.com/spreadsheets/d/1oI24CNokzVROpgGlNdPil40zovWfU7JEHTHjgqMcEAs/edit?usp=sharing)
 
-[Тест-сьют Test IT "Регресс инетренет-магазина мебели/Секция Авторизация)](https://docs.google.com/document/d/13TqUQYyBdLZG8JGp7ply3Mn1D7ZQhxoT208ocjVj1Io/edit?usp=sharing)
+[Тест-сьют "Регресс инетренет-магазина мебели/Секция Авторизация" (Test IT)](https://docs.google.com/document/d/13TqUQYyBdLZG8JGp7ply3Mn1D7ZQhxoT208ocjVj1Io/edit?usp=sharing)
 
 ## Навыки
 ![Jira](https://img.shields.io/badge/Jira-090909?style=-for-the-badge&logo=jira&logoColor=3D9AD1)
