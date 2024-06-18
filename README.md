@@ -12,15 +12,15 @@
 
 [Отчет по тестированию "Личное событие" в кабинете учителя Skyeng](https://github.com/alteraQA/alteraQA/blob/main/assets/%D0%9E%D1%82%D1%87%D0%B5%D1%82_%D0%BF%D0%BE_%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8E_%D0%BD%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE_%D1%8D%D0%BB%D0%B5%D0%BC%D0%B5%D0%BD%D1%82%D0%B0_%E2%80%9C%D0%9B%D0%B8%D1%87%D0%BD%D0%BE%D0%B5%20%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B5%E2%80%9D_%D0%B2_%D0%BA%D0%B0%D0%B1%D0%B8%D0%BD%D0%B5%D1%82%D0%B5_%D1%83%D1%87%D0%B8%D1%82%D0%B5%D0%BB%D1%8F_Skyeng.pdf)
 
-[Postman collection "Расписание Skyeng"](https://drive.google.com/file/d/1tfNjtPORxWtwDOsCi_Izpt4lp306K2YO/view?usp=sharing)
+[Postman collection "Расписание Skyeng"](https://github.com/alteraQA/alteraQA/blob/main/assets/%D0%A0%D0%B0%D1%81%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5%20Skyeng_CW2.postman_collection)
 
 [Структура документации проекта](https://miro.com/welcomeonboard/aG5NeGpVMUI3OUVKNVlPUFVjb2l1VDJ1R1B0U2Yzc1Q0aWw4Z1JCQ0ZpZEF3ekh6S3VRNXJhN3ZuS3dQN2tBQXwzNDU4NzY0NTIzMzczNjIwNTUwfDI=?share_link_id=518572256228)
 
-[Тест-сьют "Регистрация"(Google sheets)](https://docs.google.com/spreadsheets/d/1oI24CNokzVROpgGlNdPil40zovWfU7JEHTHjgqMcEAs/edit?usp=sharing)
+[Тест-сьют "Регистрация"(Google sheets)](https://github.com/alteraQA/alteraQA/blob/main/assets/high-level%20test%20cases%20-%20%D0%90%D0%B2%D1%82%D0%BE%D1%80%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F_%D0%A0%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D1%8F_%D0%92%D0%BE%D1%81%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5.pdf)
 
-[Тест-сьют "Регресс инетренет-магазина мебели/Секция Авторизация" (Test IT)](https://docs.google.com/document/d/13TqUQYyBdLZG8JGp7ply3Mn1D7ZQhxoT208ocjVj1Io/edit?usp=sharing)
+[Тест-сьют "Регресс инетренет-магазина мебели/Секция Авторизация" (Test IT)](https://github.com/alteraQA/alteraQA/blob/main/assets/%D0%A2%D0%B5%D1%81%D1%82-%D1%81%D1%8C%D1%8E%D1%82_%D1%80%D0%B5%D0%B3%D1%80%D0%B5%D1%81%D1%81_%D0%B8%D0%BD%D0%B5%D1%82%D1%80%D0%B5%D0%BD%D0%B5%D1%82-%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD%D0%B0_%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D0%B8_TEST_IT.pdf)
 
-[Примеры SQL-запросов](https://docs.google.com/document/d/1QYi2glOuFCV3ynt8GDN63AD_01XhUSHvsilWf9sLtpY/edit?usp=sharing)
+[Примеры SQL-запросов](https://github.com/alteraQA/alteraQA/blob/main/assets/%D0%9F%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D1%8B%20SQL-%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%D0%BE%D0%B2%20.pdf)
 
 ## Навыки
 ![Jira](https://img.shields.io/badge/Jira-090909?style=-for-the-badge&logo=jira&logoColor=3D9AD1)
