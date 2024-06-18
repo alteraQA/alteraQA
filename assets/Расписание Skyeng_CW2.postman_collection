@@ -1,0 +1,698 @@
+{
+	"info": {
+		"_postman_id": "6f2566a3-6d9c-4ed5-8b5b-175d6df7a7d1",
+		"name": "Расписание Skyeng",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21760391"
+	},
+	"item": [
+		{
+			"name": "Расписание",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "token_global={{MyToken}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"from\": \"2022-08-29T04:00:00+07:00\",\r\n    \"till\": \"2022-09-04T04:00:00+07:00\",\r\n    \"onlyTypes\": []\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Skyeng}}/v2/schedule/events",
+					"host": [
+						"{{Skyeng}}"
+					],
+					"path": [
+						"v2",
+						"schedule",
+						"events"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Создать новое личное событие",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var key = \"eventId\"\r",
+							"var value = pm.response.json().data.payload.id\r",
+							"pm.collectionVariables.set(key, value)"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "token_global={{MyToken}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"backgroundColor\": \"#F4F5F6\",\r\n    \"color\": \"#81888D\",\r\n    \"description\": \"\",\r\n    \"title\": \"Alt1\",\r\n    \"startAt\": \"2022-08-25T20:30:00+07:00\",\r\n    \"endAt\": \"2022-08-25T21:00:00+07:00\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Skyeng}}/v2/schedule/createPersonal",
+					"host": [
+						"{{Skyeng}}"
+					],
+					"path": [
+						"v2",
+						"schedule",
+						"createPersonal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Редактировать личное событие",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var key = \"eventId2\"\r",
+							"var value = pm.response.json().data.payload.id\r",
+							"pm.collectionVariables.set(key, value)"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "token_global={{MyToken}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"backgroundColor\": \"#EBFDF2\",\r\n    \"color\": \"#43B658\",\r\n    \"description\": \"\",\r\n    \"title\": \"NewAlt\",\r\n    \"startAt\": \"2022-08-25T20:30:00+07:00\",\r\n    \"endAt\": \"2022-08-25T21:00:00+07:00\",\r\n    \"id\": {{eventId}},\r\n    \"oldStartAt\": \"2022-08-25T20:30:00+07:00\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Skyeng}}/v2/schedule/updatePersonal",
+					"host": [
+						"{{Skyeng}}"
+					],
+					"path": [
+						"v2",
+						"schedule",
+						"updatePersonal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Удалить личное событие",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "token_global={{MyToken}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": {{eventId2}},\r\n    \"startAt\": \"2022-08-25T20:30:00+07:00\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Skyeng}}/v2/schedule/removePersonal",
+					"host": [
+						"{{Skyeng}}"
+					],
+					"path": [
+						"v2",
+						"schedule",
+						"removePersonal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Создать ЛС без цвета",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var key = \"eventId\"\r",
+							"var value = pm.response.json().data.payload.id\r",
+							"pm.collectionVariables.set(key, value)"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "token_global={{MyToken}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"backgroundColor\": \"#F4F5F6\",\r\n    \"color\": \"\",\r\n    \"description\": \"\",\r\n    \"title\": \"Alt1\",\r\n    \"startAt\": \"2022-08-25T20:30:00+07:00\",\r\n    \"endAt\": \"2022-08-25T21:00:00+07:00\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Skyeng}}/v2/schedule/createPersonal",
+					"host": [
+						"{{Skyeng}}"
+					],
+					"path": [
+						"v2",
+						"schedule",
+						"createPersonal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Создать ЛС без названия",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var key = \"eventId\"\r",
+							"var value = pm.response.json().data.payload.id\r",
+							"pm.collectionVariables.set(key, value)"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "token_global={{MyToken}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"backgroundColor\": \"#F4F5F6\",\r\n    \"color\": \"#81888D\",\r\n    \"description\": \"\",\r\n    \"title\": \"\",\r\n    \"startAt\": \"2022-08-25T20:30:00+07:00\",\r\n    \"endAt\": \"2022-08-25T21:00:00+07:00\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Skyeng}}/v2/schedule/createPersonal",
+					"host": [
+						"{{Skyeng}}"
+					],
+					"path": [
+						"v2",
+						"schedule",
+						"createPersonal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Создать ЛС без даты",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var key = \"eventId\"\r",
+							"var value = pm.response.json().data.payload.id\r",
+							"pm.collectionVariables.set(key, value)"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "token_global={{MyToken}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"backgroundColor\": \"#F4F5F6\",\r\n    \"color\": \"#81888D\",\r\n    \"description\": \"\",\r\n    \"title\": \"Alt1\",\r\n    \"startAt\": \"\",\r\n    \"endAt\": \"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Skyeng}}/v2/schedule/createPersonal",
+					"host": [
+						"{{Skyeng}}"
+					],
+					"path": [
+						"v2",
+						"schedule",
+						"createPersonal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ЛС более 500 символов",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var key = \"eventId\"\r",
+							"var value = pm.response.json().data.payload.id\r",
+							"pm.collectionVariables.set(key, value)"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "token_global={{MyToken}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"backgroundColor\": \"#F4F5F6\",\r\n    \"color\": \"#81888D\",\r\n    \"description\": \"Однозначно, ключевые особенности структуры проекта, инициированные исключительно синтетически, в равной степени предоставлены сами себе. Однозначно, предприниматели в сети интернет освещают чрезвычайно интересные особенности картины в целом, однако конкретные выводы, разумеется, смешаны с не уникальными данными до степени совершенной неузнаваемости, из-за чего возрастает их статус бесполезности. В частности, современная методология разработки говорит о возможностях переосмысления внешнеэкономических политик.\",\r\n    \"title\": \"Alt1\",\r\n    \"startAt\": \"2022-08-25T20:30:00+07:00\",\r\n    \"endAt\": \"2022-08-25T21:00:00+07:00\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Skyeng}}/v2/schedule/createPersonal",
+					"host": [
+						"{{Skyeng}}"
+					],
+					"path": [
+						"v2",
+						"schedule",
+						"createPersonal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Название более 40 символов при редактировании",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "token_global={{MyToken}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"backgroundColor\": \"#EBFDF2\",\r\n    \"color\": \"#43B658\",\r\n    \"description\": \"\",\r\n    \"title\": \"Однозначно, ключевые особенности структуры проекта, инициированные исключительно синтетически, в равной степени предоставлены сами себе.\",\r\n    \"startAt\": \"2022-08-25T20:30:00+07:00\",\r\n    \"endAt\": \"2022-08-25T21:00:00+07:00\",\r\n    \"id\": {{eventId}},\r\n    \"oldStartAt\": \"2022-08-25T20:30:00+07:00\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Skyeng}}/v2/schedule/updatePersonal",
+					"host": [
+						"{{Skyeng}}"
+					],
+					"path": [
+						"v2",
+						"schedule",
+						"updatePersonal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Несуществующая дата при редактировании",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var key = \"eventId2\"\r",
+							"var value = pm.response.json().data.payload.id\r",
+							"pm.collectionVariables.set(key, value)"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "token_global={{MyToken}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"backgroundColor\": \"#EBFDF2\",\r\n    \"color\": \"#43B658\",\r\n    \"description\": \"\",\r\n    \"title\": \"NewAlt\",\r\n    \"startAt\": \"2022-15-25T20:30:00+07:00\",\r\n    \"endAt\": \"2022-45-25T21:00:00+07:00\",\r\n    \"id\": {{eventId}},\r\n    \"oldStartAt\": \"2022-08-25T20:30:00+07:00\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Skyeng}}/v2/schedule/updatePersonal",
+					"host": [
+						"{{Skyeng}}"
+					],
+					"path": [
+						"v2",
+						"schedule",
+						"updatePersonal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Удалить личное событие без даты",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "token_global={{MyToken}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": {{eventId2}},\r\n    \"startAt\": \"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Skyeng}}/v2/schedule/removePersonal",
+					"host": [
+						"{{Skyeng}}"
+					],
+					"path": [
+						"v2",
+						"schedule",
+						"removePersonal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Удалить личное событие без id",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "token_global={{MyToken}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"\" ,\r\n    \"startAt\": \"2022-08-25T20:30:00+07:00\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Skyeng}}/v2/schedule/removePersonal",
+					"host": [
+						"{{Skyeng}}"
+					],
+					"path": [
+						"v2",
+						"schedule",
+						"removePersonal"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "MyToken",
+			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJ1c2VySWQiOjEwMzM4NzM2LCJpZGVudGl0eSI6InRlc3QtbW9iaWxlMUBza3llbmcucnUiLCJpZGVudGl0eUxvZ2luIjpudWxsLCJpZGVudGl0eUVtYWlsIjoidGVzdC1tb2JpbGUxQHNreWVuZy5ydSIsImlkZW50aXR5UGhvbmUiOiIrNzkxMjI1MjUyNTIiLCJuYW1lIjoiXHUwNDI3XHUwNDMwXHUwNDQwXHUwNDNiXHUwNDRjXHUwNDM3Iiwic3VybmFtZSI6Ilx1MDQyMFx1MDQzMFx1MDQzN1x1MDQzMlx1MDQzMFx1MDQzYlx1MDQ0Zlx1MDQzNVx1MDQzMiIsImVtYWlsIjoidGVzdC1tb2JpbGUxQHNreWVuZy5ydSIsInVpTGFuZ3VhZ2UiOiJydSIsImxvY2FsZSI6InJ1Iiwic2VydmljZUxvY2FsZSI6bnVsbCwidWFzIjozMCwiand0VHlwZSI6MSwianRpIjoiRWNieDY4Tnk2S1IwMXV1TFJDSGVLak5WOFozSjJCeDMiLCJicmFuZCI6bnVsbCwiZXhwIjoxNjYxNTk3MDA1LCJhdmF0YXJVcmwiOiJodHRwczpcL1wvYXV0aC1hdmF0YXJzLXNreWVuZy5pbWdpeC5uZXRcLzEwMzM4NzM2XC8zNjBjMDYzNy1kMDhkLTQ0NzktYTNlZi0wNGJhZTk2YmMwNGE_YXV0bz1mb3JtYXQlMkNlbmhhbmNlJmZpdD1jcm9wJmg9MjAwJml4bGliPXBocC0yLjEuMSZxPTc1JnNhdD04JnNoYXJwPTEwJnZpYj04Jnc9MjAwIiwiYmlydGhkYXkiOiIxOTcxLTAzLTA1IiwiYVR5cGUiOiJVU0VSTkFNRV9QQVNTV09SRCIsImFUaW1lIjoxNjYxNTEwNjAzLCJyb2xlcyI6WyJST0xFX1RFQUNIRVIiLCJST0xFX0NSTTJfVEVBQ0hFUl9BQ0NFU1MiLCJST0xFX1RUQ19VU0FHRSIsIlJPTEVfVklNQk9YX1RFQUNIRVJfVVNBR0UiLCJST0xFX1ZJTUJPWF9DUkVBVEVfU0NSRUVOSU5HX1RFU1QiXX0.1ex-I11tPUBWZSyi8P_oLngRf2rvA0wdTX7NIAI89njubp8iLVOC5S_pIETkYsDI_qvJ3BPmILdK9PN7VHnh1Gh8iBQwwjwr2SQoHhdGNRNRAFWwwVKlu69t6bXu0uqZJDcxTiJqHdveDKhH9suLnW0J9AYW8q15ArGD5Vw89eKuIMdemh8zcqODWwyOUWSTI-agtOVG7XeknFv6HMoJqxx5HXlnRsVLENo1RwxSD1tAsFHPHk6tBRzqANG9TnkSTDiFlfyWiEz2PWi_tXUfwqD3ohGjo-AptQ3G4pksJD-ontPjUd_r-cgEz0LxyfE3FQmgMmGU1WU9SIyxV-ibzNg_F7K8d0Q2s4WrJPw6PRD0W5MzB5l-jh4CCFy6tVSScyvBLCO5KQwRAPwmgNWs_wK3DIK3NFqBeYI2SHMMImZL819NgPQfHmbqYYbZclrkhrEEFjUJVZIKlKsgvhtOmOePZxXHSI82CpxY4zYBmi3ZcfsJEAO0aKPIseHXyzydiYkML7BXtHg2RfVZ5bSuoSMHvbgqqo0vpe0yY77zcJt3iCgxKaIEj6DbPGKLjP0iYx3R11lTjxXEmcKGjwmgXFjys4nGK50hNY0OCArS9licuv37qOwSy3nOaYnYotALQrUR_QmIZGahNO_Y8bVTZ5NF-zmqowCK6kXe0bm2CNs",
+			"type": "string"
+		},
+		{
+			"key": "eventId",
+			"value": ""
+		},
+		{
+			"key": "eventId2",
+			"value": ""
+		}
+	]
+}
