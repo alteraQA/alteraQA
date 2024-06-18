@@ -20,6 +20,8 @@
 
 [Тест-сьют "Регресс инетренет-магазина мебели/Секция Авторизация" (Test IT)](https://docs.google.com/document/d/13TqUQYyBdLZG8JGp7ply3Mn1D7ZQhxoT208ocjVj1Io/edit?usp=sharing)
 
+[Примеры SQL-запросов ](https://docs.google.com/document/d/1QYi2glOuFCV3ynt8GDN63AD_01XhUSHvsilWf9sLtpY/edit?usp=sharing)
+
 ## Навыки
 ![Jira](https://img.shields.io/badge/Jira-090909?style=-for-the-badge&logo=jira&logoColor=3D9AD1)
 ![Confluence](https://img.shields.io/badge/Confluence-090909?style=-for-the-badge&logo=confluence&logoColor=3D9AD1)
