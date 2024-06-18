@@ -17,6 +17,7 @@
 [Структура документации проекта](https://miro.com/welcomeonboard/aG5NeGpVMUI3OUVKNVlPUFVjb2l1VDJ1R1B0U2Yzc1Q0aWw4Z1JCQ0ZpZEF3ekh6S3VRNXJhN3ZuS3dQN2tBQXwzNDU4NzY0NTIzMzczNjIwNTUwfDI=?share_link_id=518572256228)
 
 [Тест-сьют "Регистрация"(Google sheets)](https://docs.google.com/spreadsheets/d/1oI24CNokzVROpgGlNdPil40zovWfU7JEHTHjgqMcEAs/edit?usp=sharing)
+[Тест-сьют "Регресс инетренет-магазина мебели/Секция Авторизация)](https://docs.google.com/document/d/13TqUQYyBdLZG8JGp7ply3Mn1D7ZQhxoT208ocjVj1Io/edit?usp=sharing)
 
 ## Навыки
 ![Jira](https://img.shields.io/badge/Jira-090909?style=-for-the-badge&logo=jira&logoColor=3D9AD1)
